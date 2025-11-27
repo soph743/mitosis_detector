@@ -1,17 +1,27 @@
 # Mitosis Detector 
 --Disclaimer: This is an ongoing project as part of our fellowship with MIT Break Through Tech.
 
-<br>
-The collaborators on this project are: Gaurang Deka,  Andres Figueroa, Tasnim Hossain, Sophia Cherkaoui, and Brianna Matey
-
 ## Description
-A model to classify cells from the MIDOG++ dataset as 'mitotic' or 'not mitotic' using multiple machine learning approaches. The dataset contains 7 cell types across 25,000+ images.
+Mitosis Detector is a supervised machine learning model desgined to classify cells from MIDOG++ wholeslide images as mitotic vs non-mitotic. the dataset include 26000+ annotated microscopay images across 7 different tissue and cell types. The goal of the project is to benchmark multiple deep learning archetectures and evluate the effectiveness in automating mitosis detection which is a key challenge in computational pathology. 
 
 ## Models
+We explored several architectures to compare segmentation-augmented and classification-focused pipelines:
 
-- Resnet101 + Deeplabv3 (version 1 model, 80% accuracy)
+###  Resnet101 + Deeplabv3
+- pretained on everyday images (animals and other objects)
+- custom head with hydriv segmentation and classification pipeline. 
+- accuracy: 80%
+### Midnight12k
+- pretained on wholeslide pathology images
+- custom linear classifier head
+- accuracy: 84%
 
-- Midnight12k (version 2 model, 84% accuracy)
+## Contributors
+Sophia Cherkaoui (add a link to your respective githubs here)
+Gaurang Deka
+Brianna Matey
+Tasnim Hossain
+Andres Figeroa
 
 ## Citations & Acknowledgements
 
