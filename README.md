@@ -15,7 +15,7 @@ A model to classify cells from the MIDOG++ dataset as 'mitotic' or 'not mitotic'
 
 ## Citations & Acknowledgements
 
-We are immensely grateful for the support from our industry advisors, as well as our BTTAI TA throughout the course of our project.
+We are immensely grateful for the support from our industry advisors, as well as our BTTAI TA and staff throughout the course of our project.
 
 MIDOG++ Dataset:
 
