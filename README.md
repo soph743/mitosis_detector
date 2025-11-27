@@ -5,7 +5,7 @@
 The collaborators on this project are: Gaurang Deka,  Andres Figueroa, Tasnim Hossain, Sophia Cherkaoui, and Brianna Matey
 
 ## Description
-A model to classify cells from the MIDOG++ dataset as 'mitotic' or 'not mitotic' using multiple machine learning approaches. The dataset contains 7 cell types and 25,000+ images.
+A model to classify cells from the MIDOG++ dataset as 'mitotic' or 'not mitotic' using multiple machine learning approaches. The dataset contains 7 cell types across 25,000+ images.
 
 ## Models
 
