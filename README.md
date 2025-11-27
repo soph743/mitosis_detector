@@ -25,5 +25,15 @@ Midnight12k:
 
 https://github.com/kaiko-ai/midnight
 
+## Contact
+
+For questions and collaboration, contact: 
+
+sophiacherkaoui46@gmail.com
+gaurangdeka10@gmail.com
+briannammatey@gmail.com
+Tasnim.Hossain@tufts.edu
+andresfigueroa@brandeis.edu
+
 
 
