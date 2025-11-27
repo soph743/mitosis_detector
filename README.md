@@ -13,8 +13,8 @@ A model to classify cells from the MIDOG++ dataset as 'mitotic' or 'not mitotic'
 
 - Midnight12k (version 2 model, 84% accuracy)
 
-## Data
-We used the MIDOG++ dataset: https://github.com/DeepMicroscopy/MIDOGpp
+## Dataset Citation
+Aubreville, M., Wilm, F., Stathonikos, N. et al. A comprehensive multi-domain dataset for mitotic figure detection. Sci Data 10, 484 (2023). https://doi.org/10.1038/s41597-023-02327-4
 
 
 
