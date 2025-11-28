@@ -17,7 +17,7 @@ We explored several architectures to compare segmentation-augmented and classifi
 - accuracy: 84%
 
 ## Contributors
-Sophia Cherkaoui (add a link to your respective githubs here)
+Sophia Cherkaoui (github.com/soph743)
 Gaurang Deka
 Brianna Matey
 Tasnim Hossain
