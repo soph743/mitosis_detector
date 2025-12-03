@@ -1,4 +1,4 @@
-![alt text](https://github.com/soph743/mitosis_detector/blob/main/Mitosis%20Classification.png)
+![alt text](https://github.com/soph743/mitosis_detector/blob/main/Mitosis%20Classification%20(1).png)
 
 # Mitosis Detector 
 --Disclaimer: This is an ongoing project as part of our fellowship with MIT Break Through Tech.
