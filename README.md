@@ -6,7 +6,10 @@
 ## Description
 Mitosis Detector is a supervised machine learning model desgined to classify cells from MIDOG++ wholeslide images as mitotic vs non-mitotic. the dataset include 26000+ annotated microscopay images across 7 different tissue and cell types. The goal of the project is to benchmark multiple deep learning archetectures and evluate the effectiveness in automating mitosis detection which is a key challenge in computational pathology. 
 ## Project Highlights
-**Achieved** an accuracy of 84%, which is a higher accuracy than the MIDOG++ competition
+- **Achieved** an accuracy of 84%, which is a higher accuracy than the MIDOG++ competition accuracy
+- Efficiently ran model on 26k+ images
+## Data Exploration
+To prepare the data, we preprocessed images from the open source MIDOG++ dataset, and we split up the images into two folders: mitotic and non-mitotic
 
 ## Models
 We explored several architectures to compare segmentation-augmented and classification-focused pipelines:
@@ -19,6 +22,9 @@ We explored several architectures to compare segmentation-augmented and classifi
 - pretained on wholeslide pathology images
 - custom linear classifier head
 - accuracy: 84%
+
+### Selected Model
+We decided to use the Midnight12k model due to its higher performance compared to the Deeplabv3 model
 
 ## Contributors
 Sophia Cherkaoui (github.com/soph743)
