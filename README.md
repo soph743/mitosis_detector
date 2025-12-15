@@ -8,7 +8,11 @@ Mitosis Detector is a supervised machine learning model desgined to classify cel
 ## Project Highlights
 - **Achieved** an accuracy of 84%, which is a higher accuracy than the MIDOG++ competition accuracy
 - Efficiently ran model on 26k+ images
-  
+## Setup and Installation 
+- Download midnight_explore.ipynb
+- Run it through VSCODE, Google Colab, Jupiter notebook, or your desired notebook. Google Colab is preferred
+- Download the MIDOG++ dataset
+- Connect the code to specific folders that would have the mitotic patches to analyze.
 ## Data Exploration
 To prepare the data, we preprocessed images from the open source MIDOG++ dataset, and we split up the images into two folders: mitotic and non-mitotic
 
