@@ -8,6 +8,7 @@ Mitosis Detector is a supervised machine learning model desgined to classify cel
 ## Project Highlights
 - **Achieved** an accuracy of 84%, which is a higher accuracy than the MIDOG++ competition accuracy
 - Efficiently ran model on 26k+ images
+  
 ## Data Exploration
 To prepare the data, we preprocessed images from the open source MIDOG++ dataset, and we split up the images into two folders: mitotic and non-mitotic
 
@@ -22,9 +23,18 @@ We explored several architectures to compare segmentation-augmented and classifi
 - pretained on wholeslide pathology images
 - custom linear classifier head
 - accuracy: 84%
+- Better validayion accuracy compared to deep lab
+- proportonate flase positive/false negative outputs
+- Better performance atributed to pathology pretrianing
 
 ### Selected Model
 We decided to use the Midnight12k model due to its higher performance compared to the Deeplabv3 model
+
+## Discussion and Reflection
+We found that a the base model for midnight worked best compared to augmented version. for exmaple using HED color space instead of RGB did not significant increase validation accuracy nto did usign a shallow classifier over a linear clissifier head. 
+
+## Next Steps
+We will continue to work towards improving the model through curating a largert collection of data. We can try pooling together data from various resources to increase the volume of training data which should contribute to increasing aaccuracy. We will also try fine turining hyper parameters of the midnigth model to further improve accuracy and recall and reduce false positives/negatives.
 
 ## Contributors
 Sophia Cherkaoui (github.com/soph743)
@@ -32,7 +42,6 @@ Gaurang Deka
 Brianna Matey (https://github.com/briannammatey)
 Tasnim Hossain
 Andres Figeroa
-
 
 
 ## Citations & Acknowledgements
